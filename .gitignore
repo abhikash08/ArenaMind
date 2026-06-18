@@ -1,0 +1,121 @@
+# ========== Unity 6 Standard GitIgnore ==========
+
+# Unity project folders
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Aa]rtifacts/
+/MemoryCaptures/
+/Recordings/
+
+# Shader cache (optional, can be kept if desired)
+/Library/ShaderCache/
+
+# Addressables cache
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/**/catalog.json
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/**/*.bin*
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/
+
+# Ignore the generated AssetBundle cache
+/[Aa]ssets/AssetBundles/
+
+# Visual Studio / JetBrains Rider
+.vs/
+.gradle/
+.idea/
+*.sln
+*.csproj
+*.unityproj
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Rider specific
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Consulo
+.consulo/
+
+# Crashlytics build properties
+crashlytics-build.properties
+
+# Unity generated meta files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Crash report data
+sysinfo.txt
+
+# Built project files
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.ipa
+*.xcodeproj
+*.xcworkspace
+
+# Android local gradle files
+*.gradle
+*.gradle.*
+local.properties
+
+# iOS
+Pods/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+
+# Platform specific
+.DS_Store
+Thumbs.db
+
+# Optional: Cache for tests, artifacts, benchmarks, etc.
+/TestResults/
+/Artifacts/
+/Benchmarks/
+
+# Optional: Ignore Yarn / Node-related files if using them for WebGL or package management
+node_modules/
+yarn.lock
+package-lock.json
+
+# Optional: Unity Cloud Build manifest
+/UnityCloudBuildManifest.json
+
+# Addressables clean up
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Aa]ssets/[Ss]treamingAssets/aa/
+
+# ==================== END ====================
+
+# ========== Machine Learning / ML-Agents ==========
+
+# Virtual Environments
+/mlagents030-env/
+venv/
+env/
+.env/
+
+# Training Outputs & Checkpoints
+/results/
+*.onnx
+*.pt
+
+# Python Caches
+__pycache__/
+*.py[cod]
