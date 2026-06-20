@@ -32,7 +32,7 @@ The agent controls the fighter using two simultaneous, discrete decision branche
 * **-0.1:** Take damage (Stick)
 * **+1.0:** Knockout the opponent (Win Condition)
 * **-1.0:** Get knocked out (Lose Condition)
-
+ 
 ## Setup & Installation
 
 1.  **Unity Version:** Built using Unity 6 (6000.x LTS) / Unity 2022.3 LTS (adjust based on your actual version).
@@ -44,7 +44,7 @@ The agent controls the fighter using two simultaneous, discrete decision branche
 
 1. Open your terminal/Anaconda prompt in the project directory.
 2. Run the training commands
-Press Play in the Unity Editor.
+Press Play in the Unity Editor. 
 
 To view training metrics, open a new terminal tab and run:
 
